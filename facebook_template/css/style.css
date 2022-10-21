@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+header .couvertur{
+    background-color: blue;
+    height: 315px;
+}
+.couvertur img{
+    height: 315px;
+    width: 851px;
+}
+header .profile{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 15px;
+    top: 200px;
+    left: 100px;
+}
+.profile img{
+    height: 180px;
+    width: 180px;
+    background-color: antiquewhite;
+}
+.profile_info{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.profile_info .gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 180px;
+    justify-content: space-between;
+}
+.profile_info .gallery img{
+    height: 50px;
+    margin: .5em 0;
+    flex-basis: 25%;
+    width: 50px;
+}
+article{
+    min-width: 698px;
+}
+
+.posts{
+    width: 50%;
+    float: right;
+    margin: 1rem;
+    display: flex;
+    gap: 20px;
+}
+.posts_profile img{
+    height: 50px;
+    width: 50px;
+    background-color: antiquewhite;
+}
+.post_content .posts_img img{
+    margin: 1rem 0;
+    width: 1200px;
+    height: 630px;
+}
+
+@media (min-width:1200px)  {
+    .posts{
+        width: 70%;
+    }
+ }
