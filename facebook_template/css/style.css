@@ -5,10 +5,6 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
-a{
-    text-decoration: none;
-}
-
 header .couvertur{
     background-color: blue;
     height: 315px;
@@ -49,6 +45,7 @@ header .profile{
 }
 article{
     min-width: 698px;
+    margin-top: 4rem;
 }
 
 .posts{
